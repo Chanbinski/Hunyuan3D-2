@@ -17,6 +17,7 @@ import random
 
 import numpy as np
 import torch
+from transformers import T5Tokenizer, T5Model
 from diffusers import AutoPipelineForText2Image
 
 
